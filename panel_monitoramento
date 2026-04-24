@@ -1,0 +1,41 @@
+# =================================================================
+# PROJECT: DICCARLO SECURITY - SOC DASHBOARD
+# AUTHOR: Di Carlo (Analista de Infra & Security)
+# COPYRIGHT: (c) 2026 Di Carlo. All rights reserved.
+# LICENSE: Proprietary / All Rights Reserved
+# DESCRIPTION: Frontend for real-time security metrics and SLA management.
+# =================================================================
+
+import streamlit as st
+
+def main():
+    """
+    [EN] DICCARLO SECURITY - SOC Monitoring Interface.
+    [PT] DICCARLO SECURITY - Interface de Monitoramento SOC.
+    
+    Tier: Professional SOC V18
+    Framework: Streamlit / Plotly / Pandas
+    """
+    st.set_page_config(page_title="DICCARLO SECURITY SOC", page_icon="🛡️", layout="wide")
+    
+    st.title("🛡️ DICCARLO SECURITY | SOC DASHBOARD")
+    st.subheader("Professional Monitoring & Defense Intelligence")
+    
+    st.markdown("---")
+    
+    st.info("""
+    ### 🔒 Security Notice
+    Para proteção de infraestrutura e lógica de negócio, o código-fonte operacional 
+    deste Dashboard é mantido em repositório privado.
+    
+    **Este módulo demonstra a arquitetura de:**
+    * Gestão de SLA (MTTR & Eficiência)
+    * Inteligência de Vetores de Ataque (L7 Mitigation)
+    * Monitoramento Bare Metal (CPU/RAM Correlation)
+    * IP Tracking & Forensics Intelligence
+    """)
+    
+    st.warning("Para uma demonstração técnica completa das funcionalidades, entre em contato com o autor.")
+
+if __name__ == "__main__":
+    main()
